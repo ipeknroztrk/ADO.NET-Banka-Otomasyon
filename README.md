@@ -1,19 +1,29 @@
 
-# Banka Otomasyon Projesi
+🏦 Banka Otomasyonu – C# & PostgreSQL
 
-Bu proje, basit bir banka otomasyon sistemini simüle eden bir C# uygulamasını içermektedir.
+Bu proje, C# Console Application kullanılarak geliştirilmiş ve PostgreSQL veritabanı ile çalışan basit bir banka otomasyon sistemidir.
 
-## Proje Hakkında
+🔧 Kullanılan Teknolojiler
 
-Bu proje, müşteri hesaplarını yönetme, para transferi yapma, bakiye sorgulama gibi temel bankacılık işlemlerini gerçekleştirmenizi sağlar. Ayrıca, PostgreSQL veritabanı kullanılarak müşteri ve hesap bilgilerini saklar.
+C# (.NET Console App)
 
-## Başlangıç
+ADO.NET mimarisi
 
-Projeyi çalıştırmadan önce, aşağıdaki adımları izleyerek gerekli kurulumları gerçekleştirmeniz gerekmektedir.
+PostgreSQL
 
-### Gereksinimler
+Npgsql (.NET Data Provider for PostgreSQL)
 
-- Visual Studio veya bir C# derleyicisi
+SQL (CRUD + parametreli sorgular)
+
+NpgsqlConnection, NpgsqlCommand, NpgsqlDataReader
+
+ExecuteScalar / ExecuteNonQuery / ExecuteReader kullanımı
+
+Temel hata yönetimi (try–catch)
+
+🎯 Amaç
+
+Veritabanı işlemlerini ADO.NET mantığıyla gerçek bir senaryo üzerinde pratik etmek.leyicisi
 - PostgreSQL veritabanı
 
 ### Kurulum
